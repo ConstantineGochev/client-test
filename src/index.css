@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+/* Profile menu styles */
+
+
+/* side menu */
+@media only screen and (max-width: 700px) {
+  #side-menu {
+    width: 80%!important;
+  }
+   
+}
+/* login form */
+
+
+/* social buttons */
+.social-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  
+}
+.social-buttons {
+  justify-content: space-between;
+  position: relative;
+  margin-top: 2%!important;
+  width: 70%;
+  align-self: end;
+  margin-bottom: 5%;
+}
+.ui.button.social-buttons {
+  align-self:center;
+}
+/* 
+.ui.wide.right.sidebar,  {
+
+  position: fixed !important;
+  bottom: 0px !important;
+  top: 0px !important;
+  z-index: 100 !important;
+  width: 30%!important;
+
+
+} */
+/* .ui.visible.right.overlay.sidebar{
+  position: absolute !important;
+  width: 30%!important;
+  height: 100%!important;  
+} */
+#side-menu {
+  position: fixed ;
+  width: 30%;
+  height: 100%!important;  
+  /* overflow-y: hidden!important; */
+  overflow-x: hidden!important;
+  background: white;
+
+}
+.ui.large.form {
+  padding: 10%;
+}
+.ui .message {
+  margin-top:5%!important;
+  margin: 10%!important;
+  padding: 2px!important;
+}
+.ui.left.aligned.header {
+  padding:5%;
+  padding-top: 0;
+}
+.registration-form {
+  margin:0;
+}
+.ui.center.aligned.header, .ui.centered.header {
+  margin:0;
+}
+.ui.circular.button {
+  margin-left: 80%;
+  background: white;
+
+}
